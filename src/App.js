@@ -6,6 +6,7 @@ import About from './pages/About';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import UploadPage from './pages/UploadPage';
+import Products from './components/Products';
 import { AccessTokenProvider } from './components/AccessTokenContext';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/uploadpage" element={<UploadPage />} />
+            <Route path="/product" element={<Products />} />
           </Routes>
         </div>
       </Router>

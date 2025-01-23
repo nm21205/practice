@@ -32,7 +32,7 @@ const Nav = () => {
             <ul>
                 <li><Link to="/">홈</Link></li>
          
-                <li><Link to="/bait-selection">미끼관련</Link></li>
+                <li><Link to="/product">미끼관련</Link></li>
                         <li>
                             <span>{user_id}님, 안녕하십니까?</span>
                         </li>
@@ -40,7 +40,8 @@ const Nav = () => {
                             <button className="logout-button" onClick={logout}>로그아웃</button>
                         </li>
                         <li><Link to="/login">로그인</Link></li>
-                        <li><Link to="/sign">회원가입</Link></li>
+                        <li><Link to="/signup">회원가입</Link></li>
+                        
             
             </ul>
     </div>

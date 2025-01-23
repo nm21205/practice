@@ -45,7 +45,7 @@ export const AccessTokenProvider = ({ children }) => {
   }, [accessToken]);
 
   if (loading) {
-    return <div>Loading...</div>; // 로딩 중일 때 처리
+    return <div>Loading...</div>;
   }
 
   return (

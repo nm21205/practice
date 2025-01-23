@@ -74,7 +74,7 @@ const Login = () => {
           </Form.Item>
 
           <Form.Item label={null}>
-            <Button type="primary" danger htmlType="submit">
+            <Button type="primary"  htmlType="submit">
               로그인
             </Button>
           </Form.Item>
